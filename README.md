@@ -31,7 +31,7 @@ This project use data from other seasoned film production firms,the datasets are
 - Rotten TomatoesLinks
     - rt.movie_info.tsv
 <img src= "movie_data_erd.jpeg">
-## 2.2 Importing the relevant libraries
+### 2.2 Importing the relevant libraries
 
 Begin by importing 
 + pandas, 
@@ -49,8 +49,8 @@ with their aliases
 
 * %matplotlib inline
 
-### 3.0 Data cleaning
-# 3.1 Questions to answer
+# 3.0 Data cleaning
+## 3.1 Questions to answer
 1. What are the columns?
 2. How many observations?
 3. Are there missing values?
@@ -61,29 +61,27 @@ use the funcitons below to answer the question
 * df.describe() - get statistics summary
 * df.isnull().sum() -give sum of NAN values
 
-## Results
+# Results
 (supported with screenshorts)
 
-```markdown
- ![Top 10 watched movies](https://imgur.com/a/vhd9YZR)
- ```
+
+ [Top 10 watched movies](https://imgur.com/a/vhd9YZR)
+
 Drama is the most loved genre among the people,it has the highest number in genre_trend, Then Action genre follows and Adventure come in third.
 
-```markdown
- ![barplot showing movie trends](https://imgur.com/a/MZSYcca)
- ```
+ [barplot showing movie trends](https://imgur.com/a/MZSYcca)
+ 
 The monkey King 3 movie is  leading on world wide gross Earnings.It is doing great worldwide and has the highest foreign gross income of over 11.4 Millions compared to other movies.Back to Burgundy is  following closely at number 2 and Avengers:Infinity has no World gross earnings.
 
-```markdown
- ![popularity of movie based on rating](https://imgur.com/a/qfpmBsx)
+ [popularity of movie based on rating](https://imgur.com/a/qfpmBsx)
 
 Movies rated R are the most popular followed by the ones rated PG-13 and the movies rated G are struggling in the movie market and they came last.
- ```
-## Conclusion
+
+# Conclusion
 The project yield the desired results. The main objective and specific objectives are all satisfied.The results shows that the most loved genre among the people is Drama,the monkey King 3 movie is leading on world wide gross Earnings,and also Movies rated R are the most popular.
 
 
-## Recommendation
+# Recommendation
 1. I will recommend Microsoft studio to produce more of these listed genres; Drama, Action movies and Adventure since they are the most loved genres and this will attract more audience and in return more revenue to Microsoft Studios.
 
 2. I will recommend microsoft to produce movies like The monkey King 3 movie [2018] since it is doing great worldwide and has the highest foreign gross income of over 11.4 Millions,which translates to more money to the company as compared to producing the other movies
