@@ -31,6 +31,8 @@ This project use data from other seasoned film production firms,the datasets are
 - Rotten TomatoesLinks
     - rt.movie_info.tsv
 <img src= "movie_data_erd.jpeg">
+
+
 ### 2.2 Importing the relevant libraries
 
 Begin by importing 
