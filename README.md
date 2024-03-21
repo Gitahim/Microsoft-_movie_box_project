@@ -62,7 +62,7 @@ use the funcitons below to answer the question
 * df.isnull().sum() -give sum of NAN values
 
 # Results
-(supported with screenshorts)
+(supported with links,created a link for my screenshots)
 
 
  [Top 10 watched movies](https://imgur.com/a/vhd9YZR)
